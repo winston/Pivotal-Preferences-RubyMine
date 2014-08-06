@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="Pivotal OS X 10.5+" parent="Mac OS X 10.5+">
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="control meta W" />
+  </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift meta W" />
   </action>
@@ -7,14 +10,20 @@
     <keyboard-shortcut first-keystroke="control meta alt R" />
   </action>
   <action id="MoveEditorToOppositeTabGroup">
-    <keyboard-shortcut first-keystroke="shift control meta alt LEFT" />
-    <keyboard-shortcut first-keystroke="shift control meta alt RIGHT" />
+    <keyboard-shortcut first-keystroke="shift control meta LEFT" />
+    <keyboard-shortcut first-keystroke="shift control meta RIGHT" />
+  </action>
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="control meta LEFT" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="control meta RIGHT" />
   </action>
   <action id="SplitHorizontally">
-    <keyboard-shortcut first-keystroke="shift control meta alt DOWN" />
+    <keyboard-shortcut first-keystroke="shift control meta DOWN" />
   </action>
   <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="shift control meta alt UP" />
+    <keyboard-shortcut first-keystroke="shift control meta UP" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="control alt ENTER" />
